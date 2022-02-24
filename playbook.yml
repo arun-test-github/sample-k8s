@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: 172.15.15.101
   tasks:
   - name: Deploy the service
     kubernetes.core.k8s:
